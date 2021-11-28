@@ -1,0 +1,281 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+     font-family: 'Montserrat', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+.header-section{
+	width: 100%;
+}
+
+.header-section .bg-light{
+  background: #fff !important;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #36226f;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0px 0px 0px 15px;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover,
+.header-section .navbar-light .navbar-nav .nav-link:focus{
+	 color: #e75d27;
+}
+.slider-section{
+	width: 100%;
+	padding: 125px 0px 40px;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.slider-section h1{
+	font-size: 52px;
+	font-weight: 700;
+	line-height: 62px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.slider-section .arrow{
+	width: 100%;
+	padding: 110px 0 10px;
+}
+
+/*global title code start*/
+.title{
+	width: 100%;
+}
+.title img{
+      margin-bottom: 15px;
+}
+.title h2{
+      font-size: 48px;
+	font-weight: 700;
+	line-height: 58px;
+	text-transform: uppercase;
+	color: #33417c;
+}
+.who-we-section{
+	width: 100%;
+	padding: 80px 0px;
+}
+.who-we-section .title{
+	margin: 40px 0px 0px;
+}
+.who-we-section p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #bab5b2;
+}
+.who-img{
+	width: 100%;
+	text-align: center;
+}
+.what-we-do{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/whatwe.png") center top no-repeat;
+	background-size: cover;
+}
+.what-we-do .title{
+     text-align: center;
+     padding: 0px 0px 50px;
+}
+.what-we-do .card{
+	border-radius: 0px;
+	border: 0px;
+}
+.what-we-do .card .card-body{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 40%;
+}
+.what-we-do .card .card-body .card-title{
+	font-size: 22px;
+	line-height: 32px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.what-we-do .card .card-body .arrows{
+     position: absolute;
+     top: 40%;
+     left: 45%;
+
+}
+.attorney{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/attorney.png") center top no-repeat;
+	background: cover;
+}
+.attorney .title{
+	width: 100%;
+	margin: 80px 0px 0px;
+}
+.attorney .title h2{
+	color: #fff;
+}
+.attorney .title p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #929dcf;
+}
+.attorney .title .btn-light{
+	background: transparent;
+	text-transform: uppercase;
+	border: 0px;
+	padding: 0px;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: #e75d27;
+}
+.inner-attorney{
+	width: 100%;
+}
+.inner-attorney .card{
+	border-radius: 0px;
+	border: 0px;
+	margin-bottom: 25px;
+}
+.inner-attorney .card .card-body{
+	position: absolute;
+	width: 100%;
+	bottom: 5%;
+	left: 5%;
+}
+.inner-attorney .card .card-body .card-title{
+	font-size: 22px;
+	line-height: 32px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.languages{
+	width: 100%;
+	padding: 80px 0px;
+	
+}
+.languages .title{
+     text-align: center;
+     padding: 0px 0px 50px;
+}
+.languages .full-part h4{
+      font-size: 24px;
+	font-weight: 700;
+	line-height: 34px;
+	text-transform: uppercase;
+	color: #33417c;
+}
+.languages .full-part p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #bab5b2;
+}
+.languages .full-part .btn-light{
+	background: transparent;
+	text-transform: uppercase;
+	border: 0px;
+	padding: 0px;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: #e75d27;
+}
+.contact{
+	width: 100%;
+	padding: 80px 0px;
+	background: #36226f;
+	
+}
+.contact .title{
+     text-align: center;
+     padding: 0px 0px 50px;
+}
+.contact .title h2{
+	color: #fff;
+}
+.contact .login-form{
+	width: 400px;
+	margin: 20px auto;
+	
+	padding: 50px;
+	
+}
+.contact .login-form .form-control{
+	width: 95%;
+	display: block;
+	padding: 10px;
+	margin: 0px 0px 20px;
+	font-size: 14px;
+	font-weight: 700;
+	background: transparent;
+	color: #fff;
+}
+.contact .login-form .btn-info{
+    
+     margin-top: 3px;
+     margin-bottom: 5px;
+     margin-left: 75px;
+	padding: 5px 45px;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	background: #e76128;
+	color: #fff;
+	
+
+}
+.footer{
+	width: 100%;
+	float: left;
+	padding: 15px 0px;
+	background: #16102b;
+}
+.footer p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: center;
+	color: #9ECEFF;
+}
+.footer p a{
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #FFFFFF;
+}
+.footer .social-icons ul{
+	width: 100%;
+	display: block;
+}
+.footer .social-icons ul li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icons ul li a {
+	display: block;
+	/*width: 80px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 35px;*/
+	color: white;
+	margin: 0px 5px;
+
+}
+
